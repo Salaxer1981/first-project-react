@@ -5,13 +5,12 @@ import RandomCard from './Componentes/randomCard'
 
 
 function App() {
-   
+
+
   return (
     <div className="App">
       <RandomCard
       />
-        
-
       
     </div>
   )

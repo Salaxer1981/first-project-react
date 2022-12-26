@@ -5,17 +5,61 @@
 }
 
 body{
-  padding: 2rem;
+
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  text-align: center;
+  
 }
 
 .firstContainer{
+  display: flex;
+  flex-direction: column;
   width: 400px;
   height: 400px;
   border: 1px solid;
   border-radius: 10px;
-  margin: 0 auto;
+  background-color: white;
+  padding: 20px;
+  gap: 15px;
+}
+
+.imagen-perfil{
+  width: 159px;
+  border-radius: 50%;
+}
+
+.imagen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.contenedor-general {
+  
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1{
+  text-align: center;
+}
+ .item{
+  display: flex;
+  gap: 5px;
+ }
+
+.icon {
+  width: 15px;
+  height: 15px;
+}
+
+.dataList {
+  width: 80%;
+  margin: auto;
 }
 
 
